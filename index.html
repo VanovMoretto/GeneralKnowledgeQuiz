@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+  <h1 id="main-title">General Knowledge Quiz </h1>
+  <!-- SCORE BOARD -->
+  <div id="score-container" class="hide">
+    <h2 id="score-message">Parabéns</h2>
+    <p id="display-score"><span>90</span>%</p>
+    <p>You scored <span id="correct-answer">0</span> out of <span id="questions-qty">10</span> questions</p>
+    <button id="restart">Redo the quiz</button>
+  </div>  
+  <!-- QUIZZ CONTAINER -->
+  <div id="quizz-container">
+    <p id="question"><span id="question-number">1</span> - <span id="question-text">What is the biggest country in the world?</span>
+    </p>
+    <div id="answers-box">
+        <button><span class="btn-letter">A</span> <span class="question-answer">Russia</span></button>
+        <button><span class="btn-letter">B</span> <span class="question-answer">China</span></button>
+        <button><span class="btn-letter">C</span> <span class="question-answer">Canada</span></button>
+        <button><span class="btn-letter">D</span> <span class="question-answer">United States</span></button>
+    </div>
+  </div>
+
+  <!-- TEMPLATE ANSWER -->
+  <button class="answer-template hide"><span class="btn-letter">A</span> <span class="question-answer">Russia</span></button>
+</body>
+<footer id="footer">This quiz was created for studies purposes by Vanov Moretto - 2023</footer>
+</html>
